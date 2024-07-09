@@ -1,0 +1,12 @@
+yolo==0.3.2
+numpy==1.26.4
+pandas==1.16.0
+Scikit-learn==Scikit-learn
+Matplotlib==3.9.1
+Seaborn==0.13.2
+TensorFLow==2.16.2
+torch==2.3.1
+opencv-python==4.10.0.84
+Tesseract==0.1.3
+Fooocus==0.1.1
+Keras==0.1.2
