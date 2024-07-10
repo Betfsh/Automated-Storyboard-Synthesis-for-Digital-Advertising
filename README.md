@@ -24,7 +24,7 @@ To get started with the project, follow these steps:
 
 ## Contributors
 
-- [Bethelhem Mebratu]
+- Bethelhem Mebratu
 
 ## License
 
