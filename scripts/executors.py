@@ -25,3 +25,8 @@ def get_agent_executor(model_name='gpt-4-1106-preview', temperature=0):
         )
         logging.info("langchain  created successfully.")
         return analyst_agent_openai
+
+    except Exception as e:
+        logging.error(f"An unexpected error occurred while creating langchain exectuor: {e}")
+        return None
+    
