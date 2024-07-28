@@ -10,4 +10,7 @@ with open("system_message.txt", "r") as file:
     system_message = file.read()
 
 def get_agent_executor(model_name='gpt-4-1106-preview', temperature=0):
-    
+        try:
+        agent_kwargs = {
+        "system_message": SystemMessage(content=system_message),
+        }
