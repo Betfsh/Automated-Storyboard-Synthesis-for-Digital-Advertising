@@ -8,3 +8,6 @@ logging.basicConfig(level=logging.INFO)
 
 with open("system_message.txt", "r") as file:
     system_message = file.read()
+
+def get_agent_executor(model_name='gpt-4-1106-preview', temperature=0):
+    
